@@ -1,0 +1,40 @@
+#!/usr/bin/env ruby
+
+require 'optparse'
+require 'fontlike'
+
+options = {}
+OptionParser.new do |opts|
+  opts.banner = "Usage: circle [options]"
+
+  opts.on("-f", "--fancy", "Get fancy") do |f|
+    options[:fancy] = f
+  end
+
+  opts.on("-a", "--angry", "Get angry") do |s|
+    options[:shout] = s
+  end
+
+  opts.on("-m", "--mono", "Get oldschool") do |m|
+    options[:mono] = m
+  end
+
+  opts.on("-c", "--circle", "Get circled?") do |c|
+    options[:circle] = c
+  end
+
+  opts.on("-s", "--sans-serif", "Get attractive") do |ss|
+    options[:sans_serif] = ss
+  end
+
+  opts.on("-ds", "--double-struck", "Get struck") do |ds|
+    options[:double_struck] = ds
+  end
+end.parse!
+
+transmuter = Fontlike::Transmuter.new(options)
+
+copy = transmuter.transmute(ARGV.join(" "))
+puts "--> Copied \"#{copy}\" to clipboard"
+
+%x(echo #{copy} | pbcopy)
