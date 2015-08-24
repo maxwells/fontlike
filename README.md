@@ -20,7 +20,7 @@ bloat your ascii - fun with extended character sets. text your friends things th
     --> Copied "𝓦𝓱𝓪𝓽 𝓭𝓸 𝔂𝓸𝓾 𝓽𝓱𝓲𝓷𝓴, 𝓶𝓻 𝓯𝓪𝓷𝓬𝔂 𝓹𝓪𝓷𝓽𝓼?" to clipboard
 
     $ fontlike -s What do you think, mr fancy pants?
-    --> Copied "𝖽𝗈 𝗒𝗈𝗎 𝗍𝗁𝗂𝗇𝗄, 𝗆𝗋 𝖿𝖺𝗇𝖼𝗒 𝗉𝖺𝗇𝗍𝗌?" to clipboard
+    --> Copied "𝖶𝗁𝖺𝗍 𝖽𝗈 𝗒𝗈𝗎 𝗍𝗁𝗂𝗇𝗄, 𝗆𝗋 𝖿𝖺𝗇𝖼𝗒 𝗉𝖺𝗇𝗍𝗌?" to clipboard
 
     $ fontlike -a What do you think, mr fancy pants?
     --> Copied "WHAT DO YOU THINK, MR FANCY PANTS?" to clipboard
