@@ -28,6 +28,9 @@ bloat your ascii - fun with extended character sets. text your friends things th
     $ fontlike -m What do you think, mr fancy pants?
     --> Copied "𝚆𝚑𝚊𝚝 𝚍𝚘 𝚢𝚘𝚞 𝚝𝚑𝚒𝚗𝚔, 𝚖𝚛 𝚏𝚊𝚗𝚌𝚢 𝚙𝚊𝚗𝚝𝚜?" to clipboard
 
+    $ fontlike -r What do you think, mr fancy pants?
+    --> Copied "𝓦﻿ⓗ𝓪𝓽 𝖽𝓸 𝗒﻿ⓞU 𝗍𝓱I𝕟𝚔, ﻿ⓜ𝕣 𝓯A𝕟𝓬Y ﻿ⓟ𝓪𝚗﻿ⓣ𝓼?" to clipboard
+
 #### license
 
 MIT
